@@ -1,0 +1,51 @@
+---
+title: "Penguin Data Dashboard"
+format: html
+---
+
+## The Penguin Dashboard
+
+This interactive dashboard explores data on penguins from the Palmer Archipelago, Antarctica. Let's take a quick look at some fun facts and visualizations based on the dataset!
+
+### Summary Table
+
+```{r}
+library(palmerpenguins)
+library(dplyr)
+
+penguins %>%
+  group_by(species) %>%
+  summarize(
+    Count = n(),
+    Avg_Bill_Length_mm = mean(bill_length_mm, na.rm = TRUE),
+    Avg_Body_Mass_g = mean(body_mass_g, na.rm = TRUE)
+  )
+```
+
+## Scatter Plot: Bill Length vs. Bill Depth
+```{r}
+library(ggplot2)
+
+ggplot(penguins, aes(x = bill_length_mm, y = bill_depth_mm, color = species)) +
+  geom_point(na.rm = TRUE, size = 3) +
+  labs(
+    title = "Penguin Bill Dimensions",
+    x = "Bill Length (mm)",
+    y = "Bill Depth (mm)"
+  ) +
+  theme_minimal()
+```
+
+## Species Distribution
+```{r}
+penguins %>%
+  count(species) %>%
+  ggplot(aes(x = species, y = n, fill = species)) +
+  geom_col(show.legend = FALSE) +
+  labs(
+    title = "Count of Penguin Species",
+    x = "Species",
+    y = "Count"
+  ) +
+  theme_minimal()
+```

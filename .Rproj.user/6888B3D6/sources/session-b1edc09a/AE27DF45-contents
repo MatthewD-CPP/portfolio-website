@@ -1,0 +1,49 @@
+---
+title: "Welcome to My Portfolio"
+format: html
+---
+
+![My Headshot](images/headshot.jpg){width=150px style="border-radius: 50%;"}
+
+## Greetings, I'm Matthew Delgado
+
+Welcome to my portfolio website! I'm a data-driven digital marketing student passionate about combining creativity and analytics to tell compelling stories through data and design.
+
+---
+
+## Career Aspiration
+
+I aspire to work in digital marketing or data analytics where I can contribute to strategic decision-making through impactful insights and visual storytelling. My goal is to join a dynamic, forward-thinking company that values innovation and growth.
+
+---
+
+## Skills
+
+- Data Analysis (R, Python, Excel)
+- Visualization (ggplot2, Plotly, Tableau)
+- Digital Marketing Strategy
+- Social Media Analytics
+- Google Analytics & AdWords
+- Email Campaign Optimization
+
+---
+
+## Education
+
+**California State Polytechnic University, Pomona**  
+*Bachelor's of Science in Digital Marketing*  
+(Expected Graduation: 5, 2025)
+
+**Bachelor’s Degree in Marketing Management**  
+California State Polytechnic University, Pomona — 2025
+
+---
+
+## Let's Connect
+
+[![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/MatthewD-CPP)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matthew-delgado-a6b80924a/)  
+
+---
+
+_This website was created using Quarto, deployed on both Quarto Pub and GitHub Pages. Scroll through the tabs above to view my dashboard, essays, and projects._

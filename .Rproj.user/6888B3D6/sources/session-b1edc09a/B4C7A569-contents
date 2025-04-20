@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Matthew Delgado's Personal Website"
+  navbar:
+    left:
+      - text: "Home"  
+        href: index.qmd  
+      - text: "Dashboard"  
+        href: dashboard.qmd  
+      - text: "Essay on Shiny Apps"  
+        href: shiny-apps.qmd  
+      - text: "Essay on Shinylive"  
+        href: shinylive.qmd  
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+

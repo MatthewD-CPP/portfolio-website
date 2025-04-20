@@ -1,0 +1,31 @@
+{
+    "id": "536E870D",
+    "path": "~/Course Folder/M10/Website/shiny-apps.qmd",
+    "project_path": "shiny-apps.qmd",
+    "type": "quarto_markdown",
+    "hash": "3973077586",
+    "contents": "",
+    "dirty": true,
+    "created": 1745186585337.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "58,2",
+        "scrollLine": "0",
+        "docOutlineVisible": "1",
+        "rmdVisualModeLocation": "2:0",
+        "rmdVisualCollapsedChunks": ""
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1745188123,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1745191854523,
+    "read_only": false,
+    "read_only_alternatives": []
+}
